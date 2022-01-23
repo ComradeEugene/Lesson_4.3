@@ -20,6 +20,7 @@ namespace Lesson_4
                 string Pick = ReadLine();
                 if (Pick == "")
                 {
+                    WriteLine($"{RandomValue} - правильное число");
                     return;
                 }
                 else if (int.Parse(Pick) < RandomValue)
